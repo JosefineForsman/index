@@ -1,0 +1,68 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content ="commercial photography, portraits, weddings, advertising, architecture, events, groups/society sports."/>
+      <meta name="keywords" content="commercial photography, photography, videography, drone footage, editing, retouching, graphic design, creative directive, fotograf, företagsfotograf, drönare">
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <link rel="stylesheet" href="style.css" />
+      <script src="https://kit.fontawesome.com/90fae742c0.js" crossorigin="anonymous"></script>
+      <title>Jf Graphic Solutions</title>
+    </head>
+    <body>
+      <div class="wrapper">
+        <div class="logo">
+          <img src="img/logoBackgroundWebsite (kopia).png" alt="Logo" />
+        </div>
+      </div>
+      <hr>
+      <div class="navbar" id="myNavbar">
+        <a href="index.html">HOME</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+      <hr>
+      <main>
+        <!--------------------FORM STARTS------------------------->
+        <div class="hero">
+          <form name="company-form" action="form_cont.html" method="post" onsubmit="return validateForm()" autocomplete="off">
+            <h1>GET IN TOUCH</h1>
+            <br>
+          <div class="form1">
+            <input type="text" id="fname" required>
+            <label for="fname"><i class="fa-solid fa-user"></i> Your name</label>
+          </div>
+          <div class="form1">
+            <input type="number" id="number" required>
+            <label for="number"><i class="fa-solid fa-phone"></i> Phone no.</label>
+          </div>
+          <div class="form1">
+            <input type="email" id="email" required>
+            <label for="email"><i class="fa-solid fa-envelope"></i> Email Id</label>
+          </div>
+          <div class="form1">
+            <p><i class="fa-solid fa-message"></i> Your message : </p>
+            <textarea id="message" rows="8"></textarea>
+            <label for="message"></label>
+          </div>
+          <button type="submit">SUBMIT <i class="fa-solid fa-paper-plane"></i></button>     
+          </form>
+          <!----------------------FORM ENDS------------------------>
+         </main>
+         <div class="footer">
+          <ul>
+            <i class="fa-brands fa-instagram" style=" color: white"></i>
+            <i class="fa-brands fa-square-facebook" style="color:white"></i>
+          </ul>
+        </div>
+        <script src="script.js"></script>
+    </body>
+  </html>
